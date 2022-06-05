@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[setting up reports and started]]>
+    </line>
+    <line>
+      <![CDATA[setting Done]]>
+    </line>
+    <line>
+      <![CDATA[menu Done]]>
+    </line>
+    <line>
+      <![CDATA[searching Done]]>
+    </line>
+    <line>
+      <![CDATA[rentapp Done]]>
+    </line>
+    <line>
+      <![CDATA[assertions Done]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-06-05T13:25:22 IST" name="Default suite" finished-at="2022-06-05T13:26:41 IST" duration-ms="78168">
+    <groups>
+    </groups>
+    <test started-at="2022-06-05T13:25:22 IST" name="Default test" finished-at="2022-06-05T13:26:41 IST" duration-ms="78168">
+      <class name="Runner.loginnobroker">
+        <test-method is-config="true" signature="setupsuite()[pri:0, instance:Runner.loginnobroker@18d87d80]" started-at="2022-06-05T13:25:22 IST" name="setupsuite" finished-at="2022-06-05T13:25:22 IST" duration-ms="512" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[setting up reports and started]]>
+            </line>
+            <line>
+              <![CDATA[setting Done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupsuite -->
+        <test-method is-config="true" signature="voidsetup()[pri:0, instance:Runner.loginnobroker@18d87d80]" started-at="2022-06-05T13:25:22 IST" name="voidsetup" finished-at="2022-06-05T13:25:33 IST" duration-ms="10248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- voidsetup -->
+        <test-method signature="loginApp()[pri:1, instance:Runner.loginnobroker@18d87d80]" started-at="2022-06-05T13:25:33 IST" name="loginApp" finished-at="2022-06-05T13:25:35 IST" duration-ms="2501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method is-config="true" signature="terdown(org.testng.ITestResult)[pri:0, instance:Runner.loginnobroker@18d87d80]" started-at="2022-06-05T13:25:35 IST" name="terdown" finished-at="2022-06-05T13:25:36 IST" duration-ms="855" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApp status=SUCCESS method=loginnobroker.loginApp()[pri:1, instance:Runner.loginnobroker@18d87d80] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terdown -->
+        <test-method signature="searchpapp()[pri:2, instance:Runner.loginnobroker@18d87d80]" started-at="2022-06-05T13:25:36 IST" name="searchpapp" finished-at="2022-06-05T13:25:41 IST" duration-ms="4867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchpapp -->
+        <test-method is-config="true" signature="terdown(org.testng.ITestResult)[pri:0, instance:Runner.loginnobroker@18d87d80]" started-at="2022-06-05T13:25:41 IST" name="terdown" finished-at="2022-06-05T13:25:41 IST" duration-ms="51" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchpapp status=SUCCESS method=loginnobroker.searchpapp()[pri:2, instance:Runner.loginnobroker@18d87d80] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terdown -->
+        <test-method signature="menuappoo()[pri:3, instance:Runner.loginnobroker@18d87d80]" started-at="2022-06-05T13:25:41 IST" name="menuappoo" finished-at="2022-06-05T13:25:42 IST" duration-ms="1377" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[menu Done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- menuappoo -->
+        <test-method is-config="true" signature="terdown(org.testng.ITestResult)[pri:0, instance:Runner.loginnobroker@18d87d80]" started-at="2022-06-05T13:25:42 IST" name="terdown" finished-at="2022-06-05T13:25:42 IST" duration-ms="51" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=menuappoo status=SUCCESS method=loginnobroker.menuappoo()[pri:3, instance:Runner.loginnobroker@18d87d80] output=menu Done]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terdown -->
+        <test-method signature="searapp()[pri:4, instance:Runner.loginnobroker@18d87d80]" started-at="2022-06-05T13:25:42 IST" name="searapp" finished-at="2022-06-05T13:25:44 IST" duration-ms="1081" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[searching Done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searapp -->
+        <test-method is-config="true" signature="terdown(org.testng.ITestResult)[pri:0, instance:Runner.loginnobroker@18d87d80]" started-at="2022-06-05T13:25:44 IST" name="terdown" finished-at="2022-06-05T13:25:44 IST" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searapp status=SUCCESS method=loginnobroker.searapp()[pri:4, instance:Runner.loginnobroker@18d87d80] output=searching Done]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terdown -->
+        <test-method signature="studyapp()[pri:5, instance:Runner.loginnobroker@18d87d80]" started-at="2022-06-05T13:25:44 IST" name="studyapp" finished-at="2022-06-05T13:25:49 IST" duration-ms="5443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studyapp -->
+        <test-method is-config="true" signature="terdown(org.testng.ITestResult)[pri:0, instance:Runner.loginnobroker@18d87d80]" started-at="2022-06-05T13:25:49 IST" name="terdown" finished-at="2022-06-05T13:25:49 IST" duration-ms="34" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=studyapp status=SUCCESS method=loginnobroker.studyapp()[pri:5, instance:Runner.loginnobroker@18d87d80] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terdown -->
+        <test-method signature="aboutaa()[pri:6, instance:Runner.loginnobroker@18d87d80]" started-at="2022-06-05T13:25:49 IST" name="aboutaa" finished-at="2022-06-05T13:26:05 IST" duration-ms="15582" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[rentapp Done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aboutaa -->
+        <test-method is-config="true" signature="terdown(org.testng.ITestResult)[pri:0, instance:Runner.loginnobroker@18d87d80]" started-at="2022-06-05T13:26:05 IST" name="terdown" finished-at="2022-06-05T13:26:05 IST" duration-ms="64" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=aboutaa status=SUCCESS method=loginnobroker.aboutaa()[pri:6, instance:Runner.loginnobroker@18d87d80] output=rentapp Done]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terdown -->
+        <test-method signature="rentalagr()[pri:7, instance:Runner.loginnobroker@18d87d80]" started-at="2022-06-05T13:26:05 IST" name="rentalagr" finished-at="2022-06-05T13:26:24 IST" duration-ms="18935" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[assertions Done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- rentalagr -->
+        <test-method is-config="true" signature="terdown(org.testng.ITestResult)[pri:0, instance:Runner.loginnobroker@18d87d80]" started-at="2022-06-05T13:26:24 IST" name="terdown" finished-at="2022-06-05T13:26:24 IST" duration-ms="31" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=rentalagr status=SUCCESS method=loginnobroker.rentalagr()[pri:7, instance:Runner.loginnobroker@18d87d80] output=assertions Done]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terdown -->
+        <test-method signature="loancart()[pri:8, instance:Runner.loginnobroker@18d87d80]" started-at="2022-06-05T13:26:24 IST" name="loancart" finished-at="2022-06-05T13:26:32 IST" duration-ms="8169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loancart -->
+        <test-method is-config="true" signature="terdown(org.testng.ITestResult)[pri:0, instance:Runner.loginnobroker@18d87d80]" started-at="2022-06-05T13:26:32 IST" name="terdown" finished-at="2022-06-05T13:26:32 IST" duration-ms="51" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loancart status=SUCCESS method=loginnobroker.loancart()[pri:8, instance:Runner.loginnobroker@18d87d80] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terdown -->
+        <test-method signature="siteapp()[pri:9, instance:Runner.loginnobroker@18d87d80]" started-at="2022-06-05T13:26:32 IST" name="siteapp" finished-at="2022-06-05T13:26:34 IST" duration-ms="1655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siteapp -->
+        <test-method is-config="true" signature="terdown(org.testng.ITestResult)[pri:0, instance:Runner.loginnobroker@18d87d80]" started-at="2022-06-05T13:26:34 IST" name="terdown" finished-at="2022-06-05T13:26:34 IST" duration-ms="24" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=siteapp status=SUCCESS method=loginnobroker.siteapp()[pri:9, instance:Runner.loginnobroker@18d87d80] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terdown -->
+        <test-method signature="infoapp()[pri:10, instance:Runner.loginnobroker@18d87d80]" started-at="2022-06-05T13:26:34 IST" name="infoapp" finished-at="2022-06-05T13:26:39 IST" duration-ms="5593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- infoapp -->
+        <test-method is-config="true" signature="terdown(org.testng.ITestResult)[pri:0, instance:Runner.loginnobroker@18d87d80]" started-at="2022-06-05T13:26:39 IST" name="terdown" finished-at="2022-06-05T13:26:39 IST" duration-ms="36" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=infoapp status=SUCCESS method=loginnobroker.infoapp()[pri:10, instance:Runner.loginnobroker@18d87d80] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terdown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Runner.loginnobroker@18d87d80]" started-at="2022-06-05T13:26:39 IST" name="teardown" finished-at="2022-06-05T13:26:41 IST" duration-ms="1395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Runner.loginnobroker -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
